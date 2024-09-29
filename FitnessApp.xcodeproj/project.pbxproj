@@ -16,6 +16,7 @@
 		E38B51862CA92985003FEC15 /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51852CA92985003FEC15 /* HistoricDataView.swift */; };
 		E38B51882CA92D86003FEC15 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51872CA92D86003FEC15 /* ProgressCircleView.swift */; };
 		E38B518B2CA9313B003FEC15 /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B518A2CA9313B003FEC15 /* ActivityCardView.swift */; };
+		E38B518D2CA9508D003FEC15 /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E38B51852CA92985003FEC15 /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
 		E38B51872CA92D86003FEC15 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		E38B518A2CA9313B003FEC15 /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				E38B51852CA92985003FEC15 /* HistoricDataView.swift */,
 				E38B51772CA924E6003FEC15 /* Assets.xcassets */,
 				E38B51792CA924E6003FEC15 /* Preview Content */,
+				E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38B518D2CA9508D003FEC15 /* WorkoutCardView.swift in Sources */,
 				E38B51822CA92896003FEC15 /* FitnessTabView.swift in Sources */,
 				E38B51882CA92D86003FEC15 /* ProgressCircleView.swift in Sources */,
 				E38B51842CA92927003FEC15 /* HomeView.swift in Sources */,
