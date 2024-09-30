@@ -17,6 +17,9 @@
 		E38B51882CA92D86003FEC15 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51872CA92D86003FEC15 /* ProgressCircleView.swift */; };
 		E38B518B2CA9313B003FEC15 /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B518A2CA9313B003FEC15 /* ActivityCardView.swift */; };
 		E38B518D2CA9508D003FEC15 /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */; };
+		E38B51922CAA906E003FEC15 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51912CAA906E003FEC15 /* Activity.swift */; };
+		E38B51942CAA90B4003FEC15 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51932CAA90B4003FEC15 /* Workout.swift */; };
+		E38B51962CAA91BC003FEC15 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B51952CAA91BC003FEC15 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		E38B51872CA92D86003FEC15 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		E38B518A2CA9313B003FEC15 /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
 		E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
+		E38B51912CAA906E003FEC15 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		E38B51932CAA90B4003FEC15 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		E38B51952CAA91BC003FEC15 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,6 @@
 				E38B51852CA92985003FEC15 /* HistoricDataView.swift */,
 				E38B51772CA924E6003FEC15 /* Assets.xcassets */,
 				E38B51792CA924E6003FEC15 /* Preview Content */,
-				E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -86,11 +91,39 @@
 		E38B51892CA93113003FEC15 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E38B518F2CAA902A003FEC15 /* Views */,
+				E38B518E2CAA901D003FEC15 /* Models */,
+				E38B51902CAA9031003FEC15 /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E38B518E2CAA901D003FEC15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E38B51912CAA906E003FEC15 /* Activity.swift */,
+				E38B51932CAA90B4003FEC15 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E38B518F2CAA902A003FEC15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				E38B51832CA92927003FEC15 /* HomeView.swift */,
 				E38B51872CA92D86003FEC15 /* ProgressCircleView.swift */,
 				E38B518A2CA9313B003FEC15 /* ActivityCardView.swift */,
+				E38B518C2CA9508D003FEC15 /* WorkoutCardView.swift */,
 			);
-			path = Home;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E38B51902CAA9031003FEC15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E38B51952CAA91BC003FEC15 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,11 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38B518D2CA9508D003FEC15 /* WorkoutCardView.swift in Sources */,
+				E38B51962CAA91BC003FEC15 /* HomeViewModel.swift in Sources */,
 				E38B51822CA92896003FEC15 /* FitnessTabView.swift in Sources */,
 				E38B51882CA92D86003FEC15 /* ProgressCircleView.swift in Sources */,
+				E38B51942CAA90B4003FEC15 /* Workout.swift in Sources */,
 				E38B51842CA92927003FEC15 /* HomeView.swift in Sources */,
 				E38B518B2CA9313B003FEC15 /* ActivityCardView.swift in Sources */,
 				E38B51862CA92985003FEC15 /* HistoricDataView.swift in Sources */,
+				E38B51922CAA906E003FEC15 /* Activity.swift in Sources */,
 				E38B51762CA924E3003FEC15 /* ContentView.swift in Sources */,
 				E38B51742CA924E3003FEC15 /* FitnessAppApp.swift in Sources */,
 			);
