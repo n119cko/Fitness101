@@ -44,7 +44,7 @@ struct HomeView: View {
                                     .bold()
                                     .foregroundColor(.green)
                                 
-                                Text("\(viewModel.active)")
+                                Text("\(viewModel.exercise)")
                                     .bold()
                             }
                             .padding(.bottom)
@@ -67,7 +67,7 @@ struct HomeView: View {
                                                goal: 600,
                                                color: .red)
                             
-                            ProgressCircleView(progress: $viewModel.active,
+                            ProgressCircleView(progress: $viewModel.exercise,
                                                goal: 60,
                                                color: .green)
                                 .padding(.all, 20)
